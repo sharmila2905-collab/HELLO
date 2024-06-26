@@ -1,5 +1,6 @@
 import streamlit as st
+import pandas as pd
 
-st.write("Hello World")
-x=st.text_input("Favourite Movie?")
-st.write(f"Your favourite movie is: {x}")
+data = pd.read_csv("movies.csv")
+st.write(data)
+
