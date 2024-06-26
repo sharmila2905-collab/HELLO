@@ -1,4 +1,5 @@
 import streamlit as st
 
 st.write("Hello World")
-st.text_input("Favourite Movie?")
+x=st.text_input("Favourite Movie?")
+st.write(f"Your favourite movie is: {x}")
